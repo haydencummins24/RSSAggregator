@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="4" timestamp="1566571896881" analysisTimestamp="1566571896383" release="">
+  <Project projectName="HelloJack">
+    <Jar>U:\cse\workspace\HelloJack\bin\HelloJack.class</Jar>
+    <AuxClasspathEntry>U:\cse\workspace\HelloJack\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\common\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\jdk-current\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>U:\cse\workspace\HelloJack\test</SrcDir>
+    <SrcDir>U:\cse\workspace\HelloJack\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Aug 2019 10:51:36 -0400" total_classes="1" referenced_classes="16" total_bugs="0" total_size="13" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9" cpu_seconds="1.48" clock_seconds="0.50" peak_mbytes="737.28" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="13">
+      <ClassStats class="HelloJack" sourceFile="HelloJack.java" interface="false" size="13" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="218" invocations="336" avgMicrosecondsPerInvocation="650" maxMicrosecondsPerInvocation="3407" standardDeviationMicrosecondsPerInvocation="235"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="83" invocations="2" avgMicrosecondsPerInvocation="41614" maxMicrosecondsPerInvocation="74962" standardDeviationMicrosecondsPerInvocation="33348"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="74" invocations="335" avgMicrosecondsPerInvocation="222" maxMicrosecondsPerInvocation="2520" standardDeviationMicrosecondsPerInvocation="364"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1566571466328" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1566571466328" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1566571808361" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1566571859204" release="" codeSize="13" numClasses="1"/>
+  </History>
+</BugCollection>

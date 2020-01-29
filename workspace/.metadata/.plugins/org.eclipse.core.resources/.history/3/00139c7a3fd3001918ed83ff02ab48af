@@ -1,0 +1,12 @@
+/**
+ *
+ * A program to prompt the user for a random number seed and then generate a
+ * random number which will be used in a guessing game
+ *
+ * @author Hayden Cummins
+ * @version 20190909
+ *
+ */
+public class RandomNumber1 {
+
+}

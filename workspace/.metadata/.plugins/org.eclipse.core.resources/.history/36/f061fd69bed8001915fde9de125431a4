@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+/**
+ *
+ * A program to prompt the user for a random number seed and then generate a
+ * random number which will be used in a guessing game
+ *
+ * @author Hayden Cummins
+ * @version 20190916
+ *
+ */
+public class HailstoneSeries {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter a starting value: ");
+        int x = keyboard.nextInt();
+
+        System.out.print(x + ", ");
+
+        while (x != 1) {
+            if (x % 2 == 0) {
+                x = x / 2;
+            } else if (x % 2 == 1) {
+                x = (x * 3) + 1;
+            }
+            if (x > 1) {
+                System.out.print(x + ", ");
+            } else {
+                System.out.print(x);
+            }
+        }
+
+        keyboard.close();
+    }
+}

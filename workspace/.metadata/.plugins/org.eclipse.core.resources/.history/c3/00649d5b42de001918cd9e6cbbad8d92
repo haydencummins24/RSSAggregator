@@ -1,0 +1,61 @@
+import java.util.Random;
+import java.util.Scanner;
+
+/**
+ *
+ * A program to prompt the user for a random number seed and then generate a
+ * random number which will be used in a guessing game
+ *
+ * @author Hayden Cummins
+ * @version 20190909
+ *
+ */
+public class GuessANumber {
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter a random seed: ");
+        int seed = keyboard.nextInt();
+        Random rnd = new Random(seed);
+        int computerNum = rnd.nextInt(10) + 1; // computerNum will be between 1 and 10
+
+        int guess = 0;
+        int guessnum = 0;
+        String response = "Pas Possible";
+
+        while (guess != computerNum) {
+
+            System.out.print("Enter a guess between 1 and 200: ");
+            guess = keyboard.nextInt();
+
+            if (computerNum >= guess) {
+                System.out.println("Your guess was too low - try again.");
+            } else if (guess > computerNum) {
+                System.out.println("Your guess was too high - try again.");
+            }
+
+            guessnum = guessnum + 1;
+
+        }
+
+        if (guessnum == 1) {
+            response = "That was impossible!";
+        } else if ((guessnum > 1) && (guessnum < 4)) {
+            response = "You're pretty lucky!";
+        } else if ((guessnum > 3) && (guessnum < 8)) {
+            response = "Not bad, not bad...";
+        } else if (guessnum == 8) {
+            response = "That was not very impressive.";
+        } else if ((guessnum > 8) && (guessnum < 11)) {
+            response = "Are you having any fun at all?";
+        } else if (guessnum > 10) {
+            response = "Maybe you should play something else.";
+        }
+
+        System.out.println(
+                "I had chosen " + computerNum + " as the target number");
+        System.out.println("You guessed it in " + guessnum + " tries.");
+        System.out.println(response);
+
+        keyboard.close();
+    }
+}

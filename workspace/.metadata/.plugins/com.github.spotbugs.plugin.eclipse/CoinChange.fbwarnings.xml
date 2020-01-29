@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="18" timestamp="1567609896126" analysisTimestamp="1567609895714" release="">
+  <Project projectName="CoinChange">
+    <Jar>U:\cse\workspace\CoinChange\bin\CoinChange2.class</Jar>
+    <AuxClasspathEntry>U:\cse\workspace\CoinChange\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\common\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\jdk-current\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>U:\cse\workspace\CoinChange\test</SrcDir>
+    <SrcDir>U:\cse\workspace\CoinChange\src</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="3" last="3" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="43" startBytecode="0" endBytecode="18" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="cents" register="3" pc="31" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="39" end="39" startBytecode="30" endBytecode="30" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="39" end="39" startBytecode="30" endBytecode="30" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="cents"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="75" startBytecode="0" endBytecode="126" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="dimes" register="9" pc="145" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="58" end="58" startBytecode="143" endBytecode="143" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="58" end="58" startBytecode="143" endBytecode="143" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="dimes"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="6" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="75" startBytecode="0" endBytecode="126" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="dollars" register="6" pc="37" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="43" end="43" startBytecode="35" endBytecode="35" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="43" end="43" startBytecode="35" endBytecode="35" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="dollars"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="75" startBytecode="0" endBytecode="126" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="halfdollars" register="7" pc="73" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="48" end="48" startBytecode="71" endBytecode="71" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="48" end="48" startBytecode="71" endBytecode="71" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="halfdollars"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="75" startBytecode="0" endBytecode="126" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="nickels" register="10" pc="180" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="63" end="63" startBytecode="178" endBytecode="178" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="63" end="63" startBytecode="178" endBytecode="178" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="nickels"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="75" startBytecode="0" endBytecode="126" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="pennies" register="11" pc="214" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="68" end="68" startBytecode="212" endBytecode="212" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="68" end="68" startBytecode="212" endBytecode="212" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="pennies"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="7" last="11" removedByChange="true">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="75" startBytecode="0" endBytecode="126" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <LocalVariable name="quarters" register="8" pc="109" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="CoinChange1" start="53" end="53" startBytecode="107" endBytecode="107" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="53" end="53" startBytecode="107" endBytecode="107" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.BASE_VALUE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="quarters"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="INT_BAD_REM_BY_1" priority="1" rank="9" abbrev="INT" category="STYLE" first="7">
+    <Class classname="CoinChange1">
+      <SourceLine classname="CoinChange1" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Class>
+    <Method classname="CoinChange1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange1" start="27" end="81" startBytecode="0" endBytecode="671" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    </Method>
+    <SourceLine classname="CoinChange1" start="74" end="74" startBytecode="346" endBytecode="346" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+    <SourceLine classname="CoinChange1" start="74" end="74" startBytecode="346" endBytecode="346" sourcefile="CoinChange1.java" sourcepath="CoinChange1.java"/>
+  </BugInstance>
+  <BugInstance type="INT_BAD_REM_BY_1" priority="1" rank="9" abbrev="INT" category="STYLE" first="13" last="13" removedByChange="true">
+    <Class classname="CoinChange2">
+      <SourceLine classname="CoinChange2" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+    </Class>
+    <Method classname="CoinChange2" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="CoinChange2" start="27" end="81" startBytecode="0" endBytecode="671" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+    </Method>
+    <SourceLine classname="CoinChange2" start="74" end="74" startBytecode="346" endBytecode="346" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+    <SourceLine classname="CoinChange2" start="74" end="74" startBytecode="346" endBytecode="346" sourcefile="CoinChange2.java" sourcepath="CoinChange2.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 4 Sep 2019 11:11:35 -0400" total_classes="1" referenced_classes="16" total_bugs="1" total_size="22" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9" cpu_seconds="0.45" clock_seconds="0.42" peak_mbytes="710.92" alloc_mbytes="1024.00" gc_seconds="0.01" priority_1="1">
+    <PackageStats package="" total_bugs="1" total_types="2" total_size="22" priority_1="1">
+      <ClassStats class="CoinChange2" sourceFile="CoinChange2.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="209" invocations="339" avgMicrosecondsPerInvocation="618" maxMicrosecondsPerInvocation="11177" standardDeviationMicrosecondsPerInvocation="597"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="64" invocations="2" avgMicrosecondsPerInvocation="32437" maxMicrosecondsPerInvocation="59100" standardDeviationMicrosecondsPerInvocation="26663"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="58" invocations="338" avgMicrosecondsPerInvocation="173" maxMicrosecondsPerInvocation="3151" standardDeviationMicrosecondsPerInvocation="327"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1567607074284" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1567607074286" release="" codeSize="10" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1567607292629" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1567607467967" release="" codeSize="12" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1567607619169" release="" codeSize="14" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1567607967766" release="" codeSize="15" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1567608020638" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1567608224196" release="" codeSize="26" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1567608289079" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1567608336993" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1567608412946" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1567608429104" release="" codeSize="31" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1567608571182" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1567608738735" release="" codeSize="37" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1567609705751" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1567609773570" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1567609798076" release="" codeSize="20" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1567609850381" release="" codeSize="21" numClasses="1"/>
+  </History>
+</BugCollection>

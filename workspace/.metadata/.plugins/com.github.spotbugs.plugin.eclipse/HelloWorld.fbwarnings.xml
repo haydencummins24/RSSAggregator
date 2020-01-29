@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="2" timestamp="1566571187907" analysisTimestamp="1566571187297" release="">
+  <Project projectName="HelloWorld">
+    <Jar>U:\cse\workspace\HelloWorld\bin\HelloWorld.class</Jar>
+    <AuxClasspathEntry>U:\cse\workspace\HelloWorld\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\common\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\jdk-current\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>U:\cse\workspace\HelloWorld\src</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 23 Aug 2019 10:39:47 -0400" total_classes="1" referenced_classes="14" total_bugs="0" total_size="9" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9" cpu_seconds="2.06" clock_seconds="0.61" peak_mbytes="715.81" alloc_mbytes="1024.00" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="9">
+      <ClassStats class="HelloWorld" sourceFile="HelloWorld.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="270" invocations="330" avgMicrosecondsPerInvocation="820" maxMicrosecondsPerInvocation="22889" standardDeviationMicrosecondsPerInvocation="1547"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="100" invocations="329" avgMicrosecondsPerInvocation="304" maxMicrosecondsPerInvocation="3466" standardDeviationMicrosecondsPerInvocation="516"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="90" invocations="2" avgMicrosecondsPerInvocation="45049" maxMicrosecondsPerInvocation="77733" standardDeviationMicrosecondsPerInvocation="32684"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1566571101211" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1566571101211" release="" codeSize="9" numClasses="1"/>
+  </History>
+</BugCollection>

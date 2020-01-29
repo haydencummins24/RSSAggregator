@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+/**
+ * A simple program to read in a string and substring, then test values from
+ * both
+ *
+ * @author Hayden Cummins
+ * @version 20190912
+ */
+
+public class FunWithStrings {
+
+    public static void main(String[] args) {
+        Scanner keyboard = new Scanner(System.in);
+
+        System.out.print("Enter a long string: ");
+
+        String longstr = keyboard.nextLine();
+
+        System.out.print("Enter a substring: ");
+
+        String substringy = keyboard.nextLine();
+
+        int longlength = longstr.length();
+
+        System.out.println("Length of your string: " + longlength);
+
+        int sublength = substringy.length();
+
+        System.out.println("Length of your substring: " + sublength);
+
+        longstr.indexOf(substringy);
+
+        System.out.println(longstr.indexOf(substringy));
+
+        System.out.println("Your number cubed is: ");
+
+        keyboard.close();
+
+    }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="12" timestamp="1568819728099" analysisTimestamp="1568819727409" release="">
+  <Project projectName="RSSProcessing">
+    <Jar>U:\cse\workspace\RSSProcessing\bin\RSSProcessing.class</Jar>
+    <AuxClasspathEntry>U:\cse\workspace\RSSProcessing\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\common\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\jdk-current\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>U:\cse\workspace\RSSProcessing\src</SrcDir>
+    <SrcDir>U:\cse\workspace\RSSProcessing\test</SrcDir>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="RSSProcessing">
+      <SourceLine classname="RSSProcessing" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Class>
+    <Method classname="RSSProcessing" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="RSSProcessing" start="86" end="116" startBytecode="0" endBytecode="27" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Method>
+    <LocalVariable name="channel" register="5" pc="51" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="RSSProcessing" start="101" end="101" startBytecode="49" endBytecode="49" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <SourceLine classname="RSSProcessing" start="101" end="101" startBytecode="49" endBytecode="49" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="channel"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.NO_LOADS" value="true"/>
+  </BugInstance>
+  <BugInstance type="ES_COMPARING_PARAMETER_STRING_WITH_EQ" priority="2" rank="16" abbrev="ES" category="BAD_PRACTICE" first="3" last="8" removedByChange="true">
+    <Class classname="RSSProcessing">
+      <SourceLine classname="RSSProcessing" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Class>
+    <Method classname="RSSProcessing" name="getChildElement" signature="(Lcomponents/xmltree/XMLTree;Ljava/lang/String;)I" isStatic="true">
+      <SourceLine classname="RSSProcessing" start="41" end="57" startBytecode="0" endBytecode="58" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    </Method>
+    <Type descriptor="Ljava/lang/String;" role="TYPE_FOUND">
+      <SourceLine classname="java.lang.String" start="125" end="3345" sourcefile="String.java" sourcepath="java/lang/String.java"/>
+    </Type>
+    <LocalVariable name="tag" register="1" pc="120" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <LocalVariable name="s" register="3" pc="120" role="LOCAL_VARIABLE_VALUE_OF"/>
+    <SourceLine classname="RSSProcessing" start="50" end="50" startBytecode="121" endBytecode="121" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <SourceLine classname="RSSProcessing" start="50" end="50" startBytecode="121" endBytecode="121" sourcefile="RSSProcessing.java" sourcepath="RSSProcessing.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.RefComparisonWarningProperty.STATIC_AND_PARAMETER" value="true"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 18 Sep 2019 11:15:27 -0400" total_classes="1" referenced_classes="19" total_bugs="0" total_size="41" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9" cpu_seconds="1.17" clock_seconds="0.69" peak_mbytes="695.54" alloc_mbytes="1024.00" gc_seconds="0.03">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="41">
+      <ClassStats class="RSSProcessing" sourceFile="RSSProcessing.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="301" invocations="373" avgMicrosecondsPerInvocation="808" maxMicrosecondsPerInvocation="2748" standardDeviationMicrosecondsPerInvocation="171"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="122" invocations="372" avgMicrosecondsPerInvocation="329" maxMicrosecondsPerInvocation="13329" standardDeviationMicrosecondsPerInvocation="1043"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="116" invocations="2" avgMicrosecondsPerInvocation="58009" maxMicrosecondsPerInvocation="104942" standardDeviationMicrosecondsPerInvocation="46932"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1568816147686" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1568816147688" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1568816677304" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1568819135345" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1568819150721" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1568819182969" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1568819194300" release="" codeSize="28" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1568819230930" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1568819242430" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1568819362123" release="" codeSize="45" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1568819447944" release="" codeSize="44" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1568819585250" release="" codeSize="42" numClasses="1"/>
+  </History>
+</BugCollection>

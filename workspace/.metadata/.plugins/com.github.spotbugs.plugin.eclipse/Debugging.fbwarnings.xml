@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="21" timestamp="1568991816296" analysisTimestamp="1568991815945" release="">
+  <Project projectName="Debugging">
+    <Jar>U:\cse\workspace\Debugging\bin\Oddity4.class</Jar>
+    <AuxClasspathEntry>U:\cse\workspace\Debugging\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\common\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\jdk-current\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>U:\cse\workspace\Debugging\src</SrcDir>
+    <SrcDir>U:\cse\workspace\Debugging\test</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 20 Sep 2019 11:03:35 -0400" total_classes="1" referenced_classes="13" total_bugs="0" total_size="11" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9" cpu_seconds="0.55" clock_seconds="0.35" peak_mbytes="767.66" alloc_mbytes="1024.00" gc_seconds="0.02">
+    <PackageStats package="" total_bugs="0" total_types="1" total_size="11">
+      <ClassStats class="Oddity4" sourceFile="Oddity4.java" interface="false" size="11" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="177" invocations="310" avgMicrosecondsPerInvocation="572" maxMicrosecondsPerInvocation="2288" standardDeviationMicrosecondsPerInvocation="138"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="67" invocations="309" avgMicrosecondsPerInvocation="218" maxMicrosecondsPerInvocation="17142" standardDeviationMicrosecondsPerInvocation="1012"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="67" invocations="2" avgMicrosecondsPerInvocation="33667" maxMicrosecondsPerInvocation="61392" standardDeviationMicrosecondsPerInvocation="27724"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1568989880975" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1568989880977" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1568989918347" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1568990356542" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1568990565534" release="" codeSize="19" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1568990628131" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1568990670028" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1568990709351" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1568990819125" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1568990901707" release="" codeSize="18" numClasses="1"/>
+    <AppVersion sequence="10" timestamp="1568991234234" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1568991394309" release="" codeSize="16" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1568991441749" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1568991512100" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1568991616358" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="15" timestamp="1568991681634" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="16" timestamp="1568991712815" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="17" timestamp="1568991731509" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="18" timestamp="1568991742469" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="19" timestamp="1568991793394" release="" codeSize="11" numClasses="1"/>
+    <AppVersion sequence="20" timestamp="1568991802923" release="" codeSize="13" numClasses="1"/>
+  </History>
+</BugCollection>

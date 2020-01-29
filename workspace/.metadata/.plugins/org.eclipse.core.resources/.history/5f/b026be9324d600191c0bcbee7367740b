@@ -1,0 +1,159 @@
+import components.simplereader.SimpleReader;
+import components.simplereader.SimpleReader1L;
+import components.simplewriter.SimpleWriter;
+import components.simplewriter.SimpleWriter1L;
+
+/**
+ * Put a short phrase describing the program here.
+ *
+ * @author Put your name here
+ *
+ */
+public final class ABCDGuesser2 {
+
+    /**
+     * Private constructor so this utility class cannot be instantiated.
+     */
+    private ABCDGuesser2() {
+    }
+
+    /**
+     * Put a short phrase describing the static method myMethod here.
+     */
+    /**
+     * Repeatedly asks the user for a positive real number until the user enters
+     * one. Returns the positive real number.
+     *
+     * @param in
+     *            the input stream
+     * @param out
+     *            the output stream
+     * @return a positive real number entered by the user
+     */
+    private static double getPositiveDouble(SimpleReader in, SimpleWriter out) {
+        double n = -1;
+        String s;
+
+        while (n < 0) {
+            out.print("Enter a positive double: ");
+            s = in.nextLine();
+//            if (in.FormatChecker.canParseDouble(s)) {
+            n = Double.parseDouble(s);
+            //           }
+
+        }
+        return n;
+    }
+
+    /**
+     * Repeatedly asks the user for a positive real number not equal to 1.0
+     * until the user enters one. Returns the positive real number.
+     *
+     * @param in
+     *            the input stream
+     * @param out
+     *            the output stream
+     * @return a positive real number not equal to 1.0 entered by the user
+     */
+    private static double getPositiveDoubleNotOne(SimpleReader in,
+            SimpleWriter out) {
+        double n = 0;
+        String s;
+
+        while (n < 1) {
+            out.print("Enter a positive double greater than 1: ");
+            s = in.nextLine();
+//            if (in.FormatChecker.canParseDouble(s)) {
+            n = Double.parseDouble(s);
+            //           }
+        }
+        return n;
+
+    }
+
+    /**
+     * Print the final values of the program
+     *
+     * @param est
+     *            the final approximation of u.
+     * @param u
+     *            the number being attempted to estimate.
+     * @param exp1
+     *            the exponent of w.
+     * @param exp2
+     *            the exponent of x.
+     * @param exp3
+     *            the exponent of y.
+     * @param exp4
+     *            the exponent of z.
+     * @param out
+     *            the output stream.
+     */
+    private static void printfinal(double est, double u, double exp1,
+            double exp2, double exp3, double exp4, SimpleWriter out) {
+        out.println("Exponents are, w ^ " + exp1 + " x ^ " + exp2 + " y ^ "
+                + exp3 + " z ^ " + exp4);
+
+        out.println("Best Approximation: " + est);
+
+        out.print("Relative error = " + Math.abs((u - est) / u));
+
+    }
+
+    /**
+     * Main method.
+     *
+     * @param args
+     *            the command line arguments
+     */
+    public static void main(String[] args) {
+        SimpleReader in = new SimpleReader1L();
+        SimpleWriter out = new SimpleWriter1L();
+
+        final double u = getPositiveDouble(in, out);
+
+        double w = getPositiveDoubleNotOne(in, out);
+        double x = getPositiveDoubleNotOne(in, out);
+        double y = getPositiveDoubleNotOne(in, out);
+        double z = getPositiveDoubleNotOne(in, out);
+        double exp1 = 0;
+        double exp2 = 0;
+        double exp3 = 0;
+        double exp4 = 0;
+        double a = 0;
+        double b = 0;
+        double c = 0;
+        double d = 0;
+        final double[] jager = { -5.0, -4.0, -3.0, -2.0, -1.0, -1.0 / 2.0,
+                -1.0 / 3.0, -1.0 / 4.0, 0.0, 1.0 / 4.0, 1.0 / 3.0, 1.0 / 2.0,
+                1.0, 2.0, 3.0, 4.0, 5.0 };
+        double finest = 0;
+
+        for (int i = 0; i < jager.length; i++) {
+            a = (Math.pow(w, jager[i]));
+            for (int j = 0; j < jager.length; j++) {
+                b = (Math.pow(x, jager[j]));
+                for (int k = 0; k < jager.length; k++) {
+                    c = (Math.pow(y, jager[k]));
+                    for (int n = 0; n < jager.length; n++) {
+                        d = (Math.pow(z, jager[n]));
+                        double curr = a * b * c * d;
+                        if (Math.abs(u - curr) < Math.abs(u - finest)) {
+                            finest = curr;
+                            exp1 = jager[i];
+                            exp2 = jager[j];
+                            exp3 = jager[k];
+                            exp4 = jager[n];
+
+                        }
+                    }
+                }
+            }
+        }
+
+        printfinal(finest, u, exp1, exp2, exp3, exp4, out);
+
+        in.close();
+        out.close();
+    }
+}

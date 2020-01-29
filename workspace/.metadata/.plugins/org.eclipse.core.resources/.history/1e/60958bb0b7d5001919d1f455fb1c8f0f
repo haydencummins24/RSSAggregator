@@ -1,0 +1,14 @@
+/**
+ * A simple program to read in a string and substring, then test values from both
+ *
+ * @author YOUR NAME HERE
+ * @version DATE HERE
+ */
+import java.util.Scanner;
+
+public class FunWithStrings {
+
+    public static void main(String[] args) {
+        // TO DO: Enter your code here between the curly braces
+    }
+}

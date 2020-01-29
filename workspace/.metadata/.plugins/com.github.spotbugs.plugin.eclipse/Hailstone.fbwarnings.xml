@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.0.0-beta1" sequence="15" timestamp="1567178178461" analysisTimestamp="1567178177966" release="">
+  <Project projectName="Hailstone">
+    <Jar>U:\cse\workspace\Hailstone\bin\Hailstone4.class</Jar>
+    <AuxClasspathEntry>U:\cse\workspace\Hailstone\bin</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\common\components.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.junit_4.12.0.v201504281640\junit.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\eclipse-current\plugins\org.hamcrest.core_1.3.0.v20180420-1519.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>K:\CSE22x1\jdk-current\lib\jrt-fs.jar</AuxClasspathEntry>
+    <SrcDir>U:\cse\workspace\Hailstone\src</SrcDir>
+    <SrcDir>U:\cse\workspace\Hailstone\test</SrcDir>
+  </Project>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="3">
+    <Class classname="Hailstone1">
+      <SourceLine classname="Hailstone1" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Class>
+    <Method classname="Hailstone1" name="generateSeries" signature="(ILcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone1" start="25" end="35" startBytecode="0" endBytecode="152" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Method>
+    <SourceLine classname="Hailstone1" start="30" end="30" startBytecode="22" endBytecode="22" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    <SourceLine classname="Hailstone1" start="30" end="30" startBytecode="22" endBytecode="22" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="2" last="2" removedByChange="true">
+    <Class classname="Hailstone1">
+      <SourceLine classname="Hailstone1" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Class>
+    <Method classname="Hailstone1" name="main" signature="([Ljava/lang/String;)V" isStatic="true">
+      <SourceLine classname="Hailstone1" start="36" end="60" startBytecode="0" endBytecode="262" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    </Method>
+    <SourceLine classname="Hailstone1" start="49" end="49" startBytecode="58" endBytecode="58" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+    <SourceLine classname="Hailstone1" start="49" end="49" startBytecode="58" endBytecode="58" sourcefile="Hailstone1.java" sourcepath="Hailstone1.java"/>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="4">
+    <Class classname="Hailstone2">
+      <SourceLine classname="Hailstone2" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    </Class>
+    <Method classname="Hailstone2" name="generateSeries" signature="(ILcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone2" start="25" end="37" startBytecode="0" endBytecode="202" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    </Method>
+    <SourceLine classname="Hailstone2" start="30" end="30" startBytecode="24" endBytecode="24" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+    <SourceLine classname="Hailstone2" start="30" end="30" startBytecode="24" endBytecode="24" sourcefile="Hailstone2.java" sourcepath="Hailstone2.java"/>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="5">
+    <Class classname="Hailstone3">
+      <SourceLine classname="Hailstone3" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Class>
+    <Method classname="Hailstone3" name="generateSeries" signature="(ILcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone3" start="25" end="42" startBytecode="0" endBytecode="265" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    </Method>
+    <SourceLine classname="Hailstone3" start="31" end="31" startBytecode="27" endBytecode="27" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+    <SourceLine classname="Hailstone3" start="31" end="31" startBytecode="27" endBytecode="27" sourcefile="Hailstone3.java" sourcepath="Hailstone3.java"/>
+  </BugInstance>
+  <BugInstance type="IM_BAD_CHECK_FOR_ODD" priority="2" rank="13" abbrev="IM" category="STYLE" first="6">
+    <Class classname="Hailstone4">
+      <SourceLine classname="Hailstone4" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Class>
+    <Method classname="Hailstone4" name="generateSeries" signature="(ILcomponents/simplewriter/SimpleWriter;)V" isStatic="true">
+      <SourceLine classname="Hailstone4" start="25" end="42" startBytecode="0" endBytecode="265" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    </Method>
+    <SourceLine classname="Hailstone4" start="31" end="31" startBytecode="27" endBytecode="27" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+    <SourceLine classname="Hailstone4" start="31" end="31" startBytecode="27" endBytecode="27" sourcefile="Hailstone4.java" sourcepath="Hailstone4.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 30 Aug 2019 11:16:17 -0400" total_classes="1" referenced_classes="18" total_bugs="4" total_size="37" num_packages="1" java_version="11.0.2" vm_version="11.0.2+9" cpu_seconds="1.05" clock_seconds="0.50" peak_mbytes="679.44" alloc_mbytes="1024.00" gc_seconds="0.01" priority_2="4">
+    <PackageStats package="" total_bugs="4" total_types="4" total_size="37" priority_2="4">
+      <ClassStats class="Hailstone4" sourceFile="Hailstone4.java" interface="false" size="37" bugs="1" priority_2="1"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="217" invocations="372" avgMicrosecondsPerInvocation="585" maxMicrosecondsPerInvocation="2502" standardDeviationMicrosecondsPerInvocation="142"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="106" invocations="2" avgMicrosecondsPerInvocation="53246" maxMicrosecondsPerInvocation="100258" standardDeviationMicrosecondsPerInvocation="47011"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="62" invocations="371" avgMicrosecondsPerInvocation="169" maxMicrosecondsPerInvocation="2722" standardDeviationMicrosecondsPerInvocation="307"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1567174811992" release="" codeSize="0" numClasses="0"/>
+    <AppVersion sequence="1" timestamp="1567174811994" release="" codeSize="13" numClasses="1"/>
+    <AppVersion sequence="2" timestamp="1567176020613" release="" codeSize="21" numClasses="1"/>
+    <AppVersion sequence="3" timestamp="1567176389446" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="4" timestamp="1567176460517" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="5" timestamp="1567176474778" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="6" timestamp="1567176493141" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="7" timestamp="1567176541544" release="" codeSize="22" numClasses="1"/>
+    <AppVersion sequence="8" timestamp="1567176648782" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="9" timestamp="1567176650359" release="" codeSize="66" numClasses="3"/>
+    <AppVersion sequence="10" timestamp="1567176663231" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="11" timestamp="1567176813812" release="" codeSize="25" numClasses="1"/>
+    <AppVersion sequence="12" timestamp="1567176934865" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="13" timestamp="1567177145966" release="" codeSize="29" numClasses="1"/>
+    <AppVersion sequence="14" timestamp="1567177381750" release="" codeSize="22" numClasses="1"/>
+  </History>
+</BugCollection>
